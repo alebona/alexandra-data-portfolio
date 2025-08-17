@@ -17,7 +17,7 @@ export const Portfolio = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background dark">{/* Add dark class to force dark mode */}
+    <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
