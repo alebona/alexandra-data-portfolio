@@ -62,6 +62,7 @@ export const portfolioData = {
           period: "2022 – 2023",
           description: [
             "Criação de relatórios no Report Builder",
+            "Criação de views e regras de negócio",
             "Migração, otimização e backup de dados em SQL Server"
           ]
         },
@@ -192,6 +193,7 @@ export const portfolioData = {
           period: "2022 – 2023",
           description: [
             "Report creation in Report Builder",
+            "Creation of views and business rules",
             "Data migration, optimization and backup in SQL Server"
           ]
         },

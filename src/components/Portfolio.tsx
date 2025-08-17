@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { LanguageSwitch } from "./LanguageSwitch";
 import { portfolioData } from "@/data/portfolio";
-import { Mail, MapPin, Calendar, ExternalLink, Database, Code, BarChart3, Zap } from "lucide-react";
+import { Mail, MapPin, Calendar, ExternalLink, Database, Code, BarChart3, Zap, Github, Linkedin } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 export const Portfolio = () => {
@@ -224,7 +224,7 @@ export const Portfolio = () => {
           </h2>
           <Card className="bg-white/10 backdrop-blur-md border-white/20">
             <CardContent className="p-8">
-              <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+              <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
                 <div className="flex items-center gap-3 text-white">
                   <MapPin className="h-6 w-6" />
                   <span className="text-lg">{data.contact.location}</span>
@@ -238,6 +238,26 @@ export const Portfolio = () => {
                     {data.contact.email}
                   </a>
                 </div>
+              </div>
+              <div className="flex justify-center items-center gap-6">
+                <a 
+                  href="https://linkedin.com/in/alexandra-bona-abreu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
+                >
+                  <Linkedin className="h-6 w-6" />
+                  <span>LinkedIn</span>
+                </a>
+                <a 
+                  href="https://github.com/alexandra-bona-abreu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
+                >
+                  <Github className="h-6 w-6" />
+                  <span>GitHub</span>
+                </a>
               </div>
             </CardContent>
           </Card>
