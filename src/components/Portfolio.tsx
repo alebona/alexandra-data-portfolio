@@ -17,7 +17,7 @@ export const Portfolio = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background dark">{/* Add dark class to force dark mode */}
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -241,7 +241,7 @@ export const Portfolio = () => {
               </div>
               <div className="flex justify-center items-center gap-6">
                 <a 
-                  href="https://linkedin.com/in/alexandra-bona-abreu"
+                  href="https://www.linkedin.com/in/alexandrabona/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
@@ -250,7 +250,7 @@ export const Portfolio = () => {
                   <span>LinkedIn</span>
                 </a>
                 <a 
-                  href="https://github.com/alexandra-bona-abreu"
+                  href="https://github.com/alebona"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
